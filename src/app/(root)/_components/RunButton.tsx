@@ -1,7 +1,7 @@
 "use client";
-import { getExecutionResult, useCodeEditorStore } from "@/store/useCodeEditorStore";
+import { useCodeEditorStore } from "@/store/useCodeEditorStore";
 import { motion } from "framer-motion";
-import { Loader2, Play } from "lucide-react";
+import { PlayIcon } from "lucide-react";
 
 function RunButton() {
   const { runCode, language, isRunning } = useCodeEditorStore();
