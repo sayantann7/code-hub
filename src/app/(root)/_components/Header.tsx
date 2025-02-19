@@ -1,9 +1,3 @@
-import { useEffect } from "react";
-import { LANGUAGE_CONFIG } from "../_constants";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import { ChevronDownIcon, Lock, Sparkles } from "lucide-react";
-import useMounted from "@/hooks/useMounted";
 import Link from "next/link";
 import { Blocks } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";

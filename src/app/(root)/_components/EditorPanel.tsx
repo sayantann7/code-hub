@@ -1,12 +1,11 @@
 "use client";
 import { useCodeEditorStore } from "@/store/useCodeEditorStore";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { defineMonacoThemes, LANGUAGE_CONFIG } from "../_constants";
 import { Editor } from "@monaco-editor/react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { RotateCcwIcon, ShareIcon, TypeIcon } from "lucide-react";
-import { EditorPanelSkeleton } from "./EditorPanelSkeleton";
+import { RotateCcwIcon, TypeIcon } from "lucide-react";
 import useMounted from "@/hooks/useMounted";
 
 function EditorPanel() {
